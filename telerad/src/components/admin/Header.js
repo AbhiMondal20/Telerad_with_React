@@ -158,14 +158,14 @@ function Header() {
               <li>
                 <Link to="#" className="has-arrow waves-effect">
                   <i className="ri-mail-send-line"></i>
-                  <span>Email</span>
+                  <span>Patient</span>
                 </Link>
                 <ul className="sub-menu" aria-expanded="false">
                   <li>
-                    <Link to="email-inbox">Inbox</Link>
+                    <Link to="email-inbox">Ct Patient</Link>
                   </li>
                   <li>
-                    <Link to="email-read">Read Email</Link>
+                    <Link to="/pet-ct">Pet-ct Patient</Link>
                   </li>
                 </ul>
               </li>

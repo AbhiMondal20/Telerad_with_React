@@ -34,13 +34,13 @@ function Login() {
                 </h4>
 
                 <div className="p-3">
-                  <form className="form-horizontal mt-3" action="index">
+                  <form className="form-horizontal mt-3">
                     <div className="form-group mb-3 row">
                       <div className="col-12">
                         <input
                           className="form-control"
                           type="text"
-                          required=""
+                          required
                           placeholder="Username"
                         />
                       </div>
@@ -51,7 +51,7 @@ function Login() {
                         <input
                           className="form-control"
                           type="password"
-                          required=""
+                          required
                           placeholder="Password"
                         />
                       </div>
